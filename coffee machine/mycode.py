@@ -84,7 +84,7 @@ def machine():
         return
     elif resource_check(order):
         if take_money(order):
-            print(f"Here is your {order}. Enjoy!")
+            print(f"Here is your {order} ☕️. Enjoy!")
     machine()
 
 
